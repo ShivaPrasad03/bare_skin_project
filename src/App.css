@@ -291,7 +291,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
    align-items: center;
 
 }
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1200px) {
 
     .intro{
         height: 88vh;
@@ -299,10 +299,16 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     .benefits{
         height: 80vh;
     }
-   
+   .service-card{
+    width: 350px;
+       flex-grow: 0;
+   }
+    .service-list{
+        justify-content: center;
+    }
  
 }
-@media screen and (max-width:1024px) {
+@media screen and (min-width:768px) {
     .intro-card,.img1{
         width: 100%;
 
@@ -321,7 +327,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .intro-card,.img1{
         width: 100%;
         flex-grow: 1;
