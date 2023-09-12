@@ -50,22 +50,21 @@ class App extends Component{
       <div className=' service' id='services'>
          <h1 className='service-title'>Services</h1>
          <div className='service-list'>
-
-                  <div className='service-card'>
-                      <div>
-                        <h1>Package of 6 - Head To Toe</h1>
-                        <p>Price: <span>$1975</span> <br/> <span className='discount'>Discount Available On First Treatment</span></p>
-                        <button className='appointment-btn'>Book Appointment</button>
-                      </div>
-                      <img src='https://img.freepik.com/free-photo/female-patient-getting-rf-lifting-procedure_107420-74032.jpg?size=626&ext=jpg&ga=GA1.2.1139177812.1679995113&semt=ais'/>
-                  </div>
-                  <div className='service-card'>
+                <div className='service-card'>
                     <div>
                         <h1>Full Face</h1>
                         <p>Price: <span>$95</span> <br/> <span className='discount'>Discount Available On First Treatment</span></p>
                         <button className='appointment-btn'>Book Appointment</button>
                       </div>
                       <img src='https://img.freepik.com/free-photo/young-beautiful-girl-lies-beautician-s-table-receives-procedures_343596-4226.jpg?w=900&t=st=1694451706~exp=1694452306~hmac=0c6cb8910ae14ed20b6feaba7860aaa357e07bf965ad853628fef0a43180b3ea'/>
+                  </div>
+                 <div className='service-card'>
+                      <div>
+                          <h1>Stomach</h1>
+                          <p>Price: <span>$85</span> <br/> <span className='discount'>Discount Available On First Treatment</span></p>
+                          <button className='appointment-btn'>Book Appointment</button>
+                        </div>
+                        <img src='https://img.freepik.com/free-photo/female-therapist-giving-reductive-reaffirming-treatment-client-focusing-her-belly_662251-2042.jpg?w=900&t=st=1694452426~exp=1694453026~hmac=f762396a5a0e18a5599bd71da8405195401f682d4166d0d2726baee3e21aa56d'/>
                   </div>
                   <div className='service-card'>
                     <div>
@@ -85,12 +84,13 @@ class App extends Component{
                   </div>
                   <div className='service-card'>
                       <div>
-                          <h1>Stomach</h1>
-                          <p>Price: <span>$85</span> <br/> <span className='discount'>Discount Available On First Treatment</span></p>
-                          <button className='appointment-btn'>Book Appointment</button>
-                        </div>
-                        <img src='https://img.freepik.com/free-photo/female-therapist-giving-reductive-reaffirming-treatment-client-focusing-her-belly_662251-2042.jpg?w=900&t=st=1694452426~exp=1694453026~hmac=f762396a5a0e18a5599bd71da8405195401f682d4166d0d2726baee3e21aa56d'/>
+                        <h1>Package of 6 - Head To Toe</h1>
+                        <p>Price: <span>$1975</span> <br/> <span className='discount'>Discount Available On First Treatment</span></p>
+                        <button className='appointment-btn'>Book Appointment</button>
+                      </div>
+                      <img src='https://img.freepik.com/free-photo/female-patient-getting-rf-lifting-procedure_107420-74032.jpg?size=626&ext=jpg&ga=GA1.2.1139177812.1679995113&semt=ais'/>
                   </div>
+                  
                   <div className='service-card'>
                     <div>
                         <h1>Full Legs</h1>
