@@ -305,6 +305,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
 .contact-first-card{
     height: 70%;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .about {
