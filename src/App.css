@@ -308,8 +308,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
         justify-content: center;
     }
     .benefits-left-card{
-    justify-content: center;
-    align-items: center;
+    padding-top: 40px;
     }
  
 }
