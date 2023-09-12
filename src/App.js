@@ -99,6 +99,14 @@ class App extends Component{
                       </div>
                       <img src='https://img.freepik.com/free-photo/woman-cosmetology-studio-laser-hair-removal_1157-34877.jpg?size=626&ext=jpg&ga=GA1.1.1139177812.1679995113&semt=ais'/>
                   </div>
+                <div className='service-card special_card' >
+                    <div>
+                        <h1>Neck</h1>
+                        <p>Price: <span>$55</span> <br/> <span className='discount'>Discount Available On First Treatment</span></p>
+                        <button className='appointment-btn'>Book Appointment</button>
+                      </div>
+                      <img src='https://img.freepik.com/free-photo/young-beautiful-girl-lies-beautician-s-table-receives-procedures_343596-4226.jpg?w=900&t=st=1694451706~exp=1694452306~hmac=0c6cb8910ae14ed20b6feaba7860aaa357e07bf965ad853628fef0a43180b3ea'/>
+                  </div>
          </div>
       </div>
       <div className='benefits'>
