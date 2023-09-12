@@ -291,6 +291,10 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
    align-items: center;
 
 }
+.special-card{
+display: none;
+}
+
 @media screen and (min-width:1200px) {
 
     .intro{
@@ -310,7 +314,12 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     .benefits-left-card{
     padding-top: 40px;
     }
- 
+     .special-card{
+        display: block;
+     }
+    .appointment-btn{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:1199px) {
     .intro-card,.img1{
