@@ -229,6 +229,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     border-top-width: 3px;
     border-color: white;
     padding: 15px;
+    padding-bottom: 30px;
 }
 .benefits-title{
     text-align: center;
@@ -286,19 +287,64 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
    background-color: #7a5a59;
    display: flex;
    color: white;
+   box-shadow: 0 0 10px grey;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    justify-content: center;
    align-items: center;
 
 }
-.special-card{
-display: none;
+.contact{
+    height: 35vh;
+    background-color: #7a5a59;
+    border-style: solid;
+    border-width: 0;
+    border-top-width: 4px;
+    border-color: white;
+    
 }
+.contact-first-card{
+    height: 70%;
+    display: flex;
+    gap: 10px;
+}
+.about {
+    width: 50%;
+    margin-left: 20px;
+    font-family: 'Inconsolata';
+    color: #2e2828;
+    /* text-align: center; */
+    margin-top: 12px;
+    flex-grow: 1;
 
+}
+.contact-info{
+    /* text-align: center; */
+    width: 20%;
+    color: #2e2828;
+    flex-grow: 1;
+}
+.address{
+    width: 20%;
+    color: #2e2828;
+    /* text-align: center; */
+    flex-grow: 1;
+}
+.contact-second-card{
+    height: 25%;
+    background-color: #52403f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px
+   
+}
 @media screen and (min-width:1200px) {
 
     .intro{
-        height: 88vh;
+        height: 80vh;
+    }
+    .intro-card{
+        justify-content: center;
     }
     .benefits{
         height: 80vh;
@@ -312,11 +358,10 @@ display: none;
         justify-content: center;
     }
     .benefits-left-card{
-    padding-top: 40px;
+        height: 90%;
+    padding-top: 55px;
+    padding-bottom: 10px;
     }
-     .special-card{
-        display: block;
-     }
     .appointment-btn{
         font-size: 12px;
     }
@@ -366,5 +411,11 @@ display: none;
     }
     .intro-card{
         padding-bottom: 0px;
+    }
+    .benefits-image{
+        order: 1;
+    }
+    .benefits-left-card{
+        order: 2;
     }
 }
