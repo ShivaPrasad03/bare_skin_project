@@ -161,16 +161,11 @@ class App extends Component{
                     <p  style={{ marginTop:'5px', marginBottom:'0px',fontFamily:'Poppins'}}> <i class="fa-brands fa-square-instagram" style={{fontSize:'14px' ,marginRight:'10px',color:' #f5c2c1'}}></i>bareskinlaser</p>
                     <p  style={{ marginTop:'5px', marginBottom:'0px',fontFamily:'Poppins'}}> <i class="fa-solid fa-phone" style={{fontSize:'14px' ,marginRight:'10px',color:' #f5c2c1'}}></i>7059235589</p>
                     <p  style={{ marginTop:'2px', marginBottom:'0px', fontFamily:'Poppins'}}> <i class="fa-solid fa-envelope" style={{fontSize:'14px',marginRight:'10px',color:' #f5c2c1'}}></i>bareskinlaser13@gmail.com</p>
-                   
-                  </div>
-                </div>
-                <div className='address'>
-                  <h1 style={{fontWeight:'bold', fontSize:'25px', fontFamily:'Poppins', color:'#252121'}}>Address</h1>
-                  <div>
-                  <p  style={{ marginTop:'2px', marginBottom:'0px', fontFamily:'Poppins'}}> <i class="fa-sharp fa-solid fa-location-dot" style={{fontSize:'14px',marginRight:'10px',color:' #f5c2c1'}}></i>Oshawa,
+                    <p  style={{ marginTop:'2px', marginBottom:'0px', fontFamily:'Poppins'}}> <i class="fa-sharp fa-solid fa-location-dot" style={{fontSize:'14px',marginRight:'10px',color:' #f5c2c1'}}></i>Oshawa,
                   Ontario</p>
                   </div>
                 </div>
+               
                 
         </div>
         <div className='contact-second-card'>
