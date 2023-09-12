@@ -308,7 +308,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     }
  
 }
-@media screen and (min-width:768px) {
+@media screen and (max-width:1199px) {
     .intro-card,.img1{
         width: 100%;
 
