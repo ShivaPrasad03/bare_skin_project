@@ -332,6 +332,9 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     .navbar-menu{
         display: none;
     }
+    .service-card{
+    height: 220px;
+    }
     .apt-btn{
         display: block;
         margin-right: 10px;
