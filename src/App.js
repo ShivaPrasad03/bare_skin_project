@@ -143,28 +143,28 @@ class App extends Component{
               <img className='benefits-image' src='https://img.freepik.com/premium-vector/feminine-hairless-smooth-legs-hair-removal-banner_82574-5264.jpg?w=1060' alt=''/>
           </div>
       </div>
-      <div className='contact' id='contact'>
-        <div className='contact-first-card'>
+      <div className='contact contact-first-card' id='contact'>
+      
                 <div className='about'>
-                  <span style={{fontWeight:'bold', fontSize:'25px', fontFamily:'Poppins', color:'#252121', textAlign:'center'}}>About</span><br/><br/>
-                  Welcome To Bare Skin Laser! <br/>
-                  
-                  My name is Shalini Reddy, a certified laser tech in Oshawa.
-                  I use the award winning Alma Soprano Ice machine.
-                 
-                  The machine is virtually PAIN-FREE & proven to be the safest and most
-                  suitable for ALL SKIN TONES AND HAIR TYPES.
+                      <span style={{fontWeight:'bold', fontSize:'25px', fontFamily:'Poppins', color:'#252121', textAlign:'center'}}>About</span><br/><br/>
+                      Welcome To Bare Skin Laser! <br/>
+                      
+                      My name is Shalini Reddy, a certified laser tech in Oshawa.
+                      I use the award winning Alma Soprano Ice machine.
+                     
+                      The machine is virtually PAIN-FREE & proven to be the safest and most
+                      suitable for ALL SKIN TONES AND HAIR TYPES.
                 </div>
-                <div className='contact-info'>
+              <div className='contact-info'>
                   <h1 style={{fontWeight:'bold', fontSize:'25px', fontFamily:'Poppins', color:'#252121'}}>Contact</h1>
-                  <div style={{textAlign:"match-parent"}}>
-                    <p  style={{ marginTop:'5px', marginBottom:'0px',fontFamily:'Poppins'}}> <i class="fa-brands fa-square-instagram" style={{fontSize:'14px' ,marginRight:'10px',color:' #f5c2c1'}}></i>bareskinlaser</p>
-                    <p  style={{ marginTop:'5px', marginBottom:'0px',fontFamily:'Poppins'}}> <i class="fa-solid fa-phone" style={{fontSize:'14px' ,marginRight:'10px',color:' #f5c2c1'}}></i>7059235589</p>
-                    <p  style={{ marginTop:'2px', marginBottom:'0px', fontFamily:'Poppins'}}> <i class="fa-solid fa-envelope" style={{fontSize:'14px',marginRight:'10px',color:' #f5c2c1'}}></i>bareskinlaser13@gmail.com</p>
-                    <p  style={{ marginTop:'2px', marginBottom:'0px', fontFamily:'Poppins'}}> <i class="fa-sharp fa-solid fa-location-dot" style={{fontSize:'14px',marginRight:'10px',color:' #f5c2c1'}}></i>Oshawa,
-                  Ontario</p>
-                  </div>
-                </div>
+                    <div style={{textAlign:"match-parent"}}>
+                      <p  style={{ marginTop:'5px', marginBottom:'0px',fontFamily:'Poppins'}}> <i class="fa-brands fa-square-instagram" style={{fontSize:'14px' ,marginRight:'10px',color:' #f5c2c1'}}></i>bareskinlaser</p>
+                      <p  style={{ marginTop:'5px', marginBottom:'0px',fontFamily:'Poppins'}}> <i class="fa-solid fa-phone" style={{fontSize:'14px' ,marginRight:'10px',color:' #f5c2c1'}}></i>7059235589</p>
+                      <p  style={{ marginTop:'2px', marginBottom:'0px', fontFamily:'Poppins'}}> <i class="fa-solid fa-envelope" style={{fontSize:'14px',marginRight:'10px',color:' #f5c2c1'}}></i>bareskinlaser13@gmail.com</p>
+                      <p  style={{ marginTop:'2px', marginBottom:'0px', fontFamily:'Poppins'}}> <i class="fa-sharp fa-solid fa-location-dot" style={{fontSize:'14px',marginRight:'10px',color:' #f5c2c1'}}></i>Oshawa,
+                    Ontario</p>
+                    </div>
+              </div>
                
                 
         </div>
@@ -172,7 +172,7 @@ class App extends Component{
           <p> Bare Skin Laser </p>
         </div>
                 
-      </div>
+    
     </body>
   }
 }
