@@ -388,9 +388,10 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
 }
 
 @media screen and (max-width:600px) {
-    .contact-first-card{
-        gap: 30px;
-    }
+   .about,.contact-info{
+       width:100%;
+       flex-grow: 1;
+   }
    
     .intro-card,.img1{
         width: 100%;
