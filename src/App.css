@@ -300,13 +300,9 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     border-width: 0;
     border-top-width: 4px;
     border-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
     
 }
 .contact-first-card{
-    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -331,12 +327,11 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
 }
 
 .contact-second-card{
-    height: 25%;
+    height: 20vh;
     background-color: #52403f;
     display: flex;
     justify-content: center;
     align-items: center;
-  margin-top: 20px;
    
 }
 @media screen and (min-width:1200px) {
