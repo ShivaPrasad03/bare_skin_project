@@ -328,7 +328,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
 }
 
 .contact-second-card{
-    height: 10vh;
+    height: 8vh;
     background-color: #52403f;
     display: flex;
     justify-content: center;
@@ -393,7 +393,9 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
        width:100%;
        flex-grow: 1;
    }
-   
+   .contact{
+       padding-bottom: 15px;
+   }
     .intro-card,.img1{
         width: 100%;
         flex-grow: 1;
