@@ -35,7 +35,7 @@ nav{
     position: relative;
     letter-spacing: 1px;
 }
-.navbar-menu a:after{
+.navbar-menu-a:after{
     content: '';
     position: absolute;
     background-color: white;
@@ -47,7 +47,7 @@ nav{
     transition-duration: 1s;
     transform-origin: left;
 }
-.navbar-menu a:hover:after{
+.navbar-menu-a:hover:after{
     transform: scaleX(1);  
 }
 
@@ -158,7 +158,7 @@ font-weight: 500;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .apt-btn{
-    display: none;
+    display: block;
 }
 .appointment-btn:hover{
 background-color: #f3b3b1;
@@ -203,15 +203,15 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     font-size: 20px;
 }
 
-.service-card div button{
+.service-card-div-button{
     background-color: #f3b3b1;
     color: white;
     font-size: 9.7px;
-    width: 70%;
+    width: 100%;
     transition-duration: 1s;
 }
 
-.service-card div button:hover{
+.service-card-div-button:hover{
     transform: scale(1.2);
     
 }
@@ -304,16 +304,17 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
 }
 .contact-first-card{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px;
+    padding-left: 35px;
+    
 }
 .about {
     
     margin-left: 20px;
-    font-family: 'Inconsolata';
-    color: #2e2828;
+    font-family: 'Poppins';
+    color: white;
     /* text-align: center; */
     margin-top: 12px;
     width: 40%;
@@ -322,7 +323,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
 .contact-info{
     /* text-align: center; */
     width: 40%;
-    color: #2e2828;
+    color: white;
     margin-left: 20px;
     
 }
@@ -393,8 +394,16 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
        width:100%;
        flex-grow: 1;
    }
+   .logo{
+    margin-left: 10px;
+   }
    .contact{
        padding-bottom: 15px;
+       padding-left: 0;
+       
+   }
+   .contact-first-card{
+    justify-content: center;
    }
     .intro-card,.img1{
         width: 100%;
@@ -403,14 +412,11 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     .img1{
         height: 45vh;
     }
-    .navbar-menu{
-        display: none;
-    }
     .service-card{
     height: 220px;
     }
     .apt-btn{
-        display: block;
+        display: none;
         margin-right: 10px;
     }
     .certified-card h1{
