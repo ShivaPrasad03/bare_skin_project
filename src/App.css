@@ -294,7 +294,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
 
 }
 .contact{
-   height: 40vh;
+   min-height: 40vh;
     background-color: #7a5a59;
     border-style: solid;
     border-width: 0;
@@ -323,11 +323,12 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     /* text-align: center; */
     width: 40%;
     color: #2e2828;
+    margin-left: 20px;
     
 }
 
 .contact-second-card{
-    height: 20vh;
+    height: 10vh;
     background-color: #52403f;
     display: flex;
     justify-content: center;
