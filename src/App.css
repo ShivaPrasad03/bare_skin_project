@@ -1,6 +1,5 @@
 
 
-
 .logo{
     width: 110px;
     height: 90px;
@@ -157,9 +156,7 @@ font-weight: 500;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.apt-btn{
-    display: block;
-}
+
 .appointment-btn:hover{
 background-color: #f3b3b1;
 color: white;
@@ -207,13 +204,13 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     background-color: #f3b3b1;
     color: white;
     font-size: 9.7px;
-    width: 100%;
     transition-duration: 1s;
+    
 }
 
 .service-card-div-button:hover{
-    transform: scale(1.2);
-    
+   background-color: white;
+   color: #52403f;
 }
 
 .service-card div p span{
@@ -336,6 +333,7 @@ box-shadow: 0 0 1px grey,0 0 1px grey,0 0 1px grey;
     align-items: center;
    
 }
+ 
 @media screen and (min-width:1200px) {
 
     .intro{

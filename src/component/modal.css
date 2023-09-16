@@ -1,0 +1,117 @@
+.card{
+    background-color: #f5c2c1;
+    width: 500px;
+    min-height: 300px;
+    border-radius: 10px;
+    animation: drop 0.5s;
+    
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+}
+.input-label{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.input-label label {
+    font-size: 14px;
+    color: #494141;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input-label input{
+    padding: 7px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 0;
+    outline:none;
+    box-shadow: 0 0 10px #6a5656;
+    font-family: 'Poppins';
+
+
+}
+@keyframes drop{
+    0%{
+        transform: translateY(-100%) scale(0);
+    }
+    100%{
+        transform: translateY(0%) scale(1);
+    }
+}
+.input-card{
+    justify-content: center;
+    display: flex;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    gap: 10px;
+    /* padding: 20px; */
+}
+.dropdown{
+    padding: 7px;
+    outline: none;
+    width: 215px;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: 0 0 10px #6a5656;
+}
+input[type='date']{
+    background-color: #7a5a59;
+    width: 200px;
+    padding: 7px;
+    color: white;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+}
+.close-btn{
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.close-btn button{
+    background-color: #494141;
+    color: white;
+    border-width: 0;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.submit-btn{
+    width: 150px;
+    align-self: center;
+    padding: 7px;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    background-color: #7a5a59;
+    color: white;
+    border-width: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:600px){
+.card{
+    width: 90vw;
+}
+}
