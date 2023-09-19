@@ -116,5 +116,7 @@ input[type='date']{
 }
 }
 @media screen and (min-width:1200px){
+   .card{
     width: 50vw;
+}
 }
