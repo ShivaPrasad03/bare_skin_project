@@ -115,3 +115,6 @@ input[type='date']{
     width: 90vw;
 }
 }
+@media screen and (min-width:1200px){
+    width: 50vw;
+}
