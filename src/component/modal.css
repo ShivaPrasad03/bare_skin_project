@@ -115,7 +115,7 @@ input[type='date']{
     width: 90vw;
 }
 }
-@media screen and (min-width:1200px){
+/* @media screen and (min-width:1200px){
    .card{
     width: 50vw;
 }
@@ -134,4 +134,4 @@ input[type='date']{
         width: 200px;
         padding: 10px;
     }
-}
+} */
