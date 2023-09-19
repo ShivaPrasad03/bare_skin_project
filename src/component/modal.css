@@ -119,4 +119,19 @@ input[type='date']{
    .card{
     width: 50vw;
 }
+    .input-label label{
+        font-size: 18px;
+    }
+    .input-label input{
+        width: 40%;
+        padding: 10px;
+    }
+    .dropdown{
+        width:40%;
+        padding: 10px;
+    }
+    .submit-btn{
+        width: 200px;
+        padding: 10px;
+    }
 }
