@@ -2,6 +2,7 @@
 import {React, Component} from 'react';
 import Modal from './component/modal'
 import img from './images/logo.jpg'
+// import img from './images/jio (2).svg'
 import './App.css';
 
 

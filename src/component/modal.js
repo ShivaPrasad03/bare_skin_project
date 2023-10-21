@@ -1,4 +1,4 @@
-import { React, Component, Fragment } from "react";
+import { React, Component } from "react";
 import './modal.css'
 
  class Modal extends Component{
@@ -49,8 +49,9 @@ import './modal.css'
                             <label>Available Slots</label>
                             <input type="time"></input>
                         </div>
-                      <button className="submit-btn">Submit</button>
+                        <button className="submit-btn">Submit</button>
                     </div>
+                    
                 </div>      
             </div>
                

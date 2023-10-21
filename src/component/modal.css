@@ -1,6 +1,6 @@
 .card{
     background-color: #f5c2c1;
-    width: 500px;
+    width: 50vw;
     min-height: 300px;
     border-radius: 10px;
     animation: drop 0.5s;
@@ -50,10 +50,8 @@
 .input-card{
     justify-content: center;
     display: flex;
-    /* background-color: blue; */
     flex-wrap: wrap;
     gap: 10px;
-    /* padding: 20px; */
 }
 .dropdown{
     padding: 7px;
@@ -96,7 +94,7 @@ input[type='date']{
     border-radius: 5px;
 }
 .submit-btn{
-    width: 150px;
+    width: 300px;
     align-self: center;
     padding: 7px;
     font-family: 'Poppins';
@@ -106,7 +104,7 @@ input[type='date']{
     border-width: 0;
     cursor: pointer;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 
@@ -114,4 +112,12 @@ input[type='date']{
 .card{
     width: 90vw;
 }
+.submit-btn{
+    width: 200px;
+}
+}
+@media screen  and (min-width:1400px) {
+    .submit-btn{
+        margin-top: 25px;
+    }
 }
